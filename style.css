@@ -140,15 +140,15 @@ section {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.sobre, .servicos, .vantagens, .depoimentos, .contato, .abra-empresa {
+.sobre, .vantagens, .depoimentos, .contato, .servicos, .abra-empresa {
   background: #fff;
 }
 
-
-.sobre h2, .servicos h2, .vantagens h2, .depoimentos h2, .contato h2 {
+.sobre h2,.servicos h2, .vantagens h2, .depoimentos h2, .contato h2, .abra-empresa h2 {
   color: #0f5735;
   margin-bottom: 1.5rem;
 }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -456,6 +456,7 @@ footer {
   max-width: 340px;
   min-width: 260px;
   margin: 0;
+  border: 2px solid #0f5735;
 }
 .servicos .card h3 {
   color: #0f5735;
@@ -472,6 +473,7 @@ footer {
 .servicos .card:hover {
   box-shadow: 0 8px 24px rgba(26,26,26,0.18);
   background: #fff;
+  border: 2px solid #0f5735;
 }
 .servicos .card:hover h3 {
   color: #0f5735;
@@ -554,10 +556,6 @@ footer {
     padding: 1.2rem 0.7rem;
   }
 } 
-.abra-empresa {
-  padding: 60px 0;
-  background-color: #ffffff;
-}
 
 .abra-flex {
   display: flex;
@@ -608,25 +606,20 @@ footer {
 }
 
 .btn-abra:hover {
-  background-color: #006400;
+  background: #fff;
+  color: #0f5735;
+  border: 2px solid #0f5735;
 }
-
 
 .section-alternada {
   position: relative;
-  background: linear-gradient(rgba(15, 87, 53, 0.85), rgba(15, 87, 53, 0.85));
-  color: #fff;
+  background: #ffffff;
+  color: #0f5735;
   overflow: hidden;
 }
 .section-alternada .container {
   position: relative;
   z-index: 2;
-}
-.section-alternada h2,
-.section-alternada h3,
-.section-alternada p,
-.section-alternada label {
-  color: #fff;
 }
 .section-alternada input,
 .section-alternada textarea {
