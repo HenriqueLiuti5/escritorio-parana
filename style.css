@@ -525,7 +525,8 @@ footer {
     gap: 1.5rem;
   }
   .sobre-img img {
-    max-width: 100%;
+    max-width: 450px;
+    width: 100%;
   }
   .cards, .vantagens-list {
     flex-direction: column;
