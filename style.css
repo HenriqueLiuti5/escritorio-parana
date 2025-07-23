@@ -407,7 +407,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/lucro.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -427,7 +427,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/mesa.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -437,7 +437,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/escritorio.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -447,7 +447,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/financa.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -457,7 +457,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/lupa.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -467,7 +467,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/pido.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -477,7 +477,7 @@ footer {
   top: 0; left: 0; right: 0; bottom: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/sobre.png') center center/cover no-repeat;
+  background: url('assets/escrita.png') center center/cover no-repeat;
   opacity: 0.30;
   z-index: 1;
   pointer-events: none;
@@ -1064,11 +1064,5 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
-  }
-}
-@media (max-width: 600px) {
-  .contato-mapa-area iframe {
-    height: 250px !important;
-    max-width: 98px;
   }
 }
