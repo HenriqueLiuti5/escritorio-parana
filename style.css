@@ -3,7 +3,8 @@ body {
   margin: 0;
   background: #F5F5F5;
   color: #000000;
-  padding-top: 80px; /* Compensa o header fixo */
+  padding-top: 80px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -860,7 +861,7 @@ footer {
 @media (max-width: 600px) {
   .contato-form-wrapper {
     padding: 1.2rem 0.5rem 1.2rem 0.5rem;
-    max-width: 98vw;
+    max-width: 98px;
   }
 } 
 
@@ -997,6 +998,6 @@ footer {
 @media (max-width: 600px) {
   .contato-mapa-area iframe {
     height: 250px !important;
-    max-width: 98vw;
+    max-width: 98px;
   }
 }
