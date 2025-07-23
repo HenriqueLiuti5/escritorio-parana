@@ -1,31 +1,3 @@
-// Slider de depoimentos
-const depoimentos = document.querySelectorAll('.depoimento');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-let current = 0;
-
-function showDepoimento(idx) {
-  depoimentos.forEach((dep, i) => {
-    dep.classList.toggle('ativo', i === idx);
-  });
-}
-
-prevBtn.addEventListener('click', () => {
-  current = (current - 1 + depoimentos.length) % depoimentos.length;
-  showDepoimento(current);
-});
-nextBtn.addEventListener('click', () => {
-  current = (current + 1) % depoimentos.length;
-  showDepoimento(current);
-});
-
-// Auto-slide
-setInterval(() => {
-  current = (current + 1) % depoimentos.length;
-  showDepoimento(current);
-}, 7000);
-
-// Animação de entrada suave nas seções ao rolar
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
